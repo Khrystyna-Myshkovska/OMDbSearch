@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+}
+.searchArea{
+    width: 40%;
+    height: 45px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-left: 40px;
+}
+#searchBtn{
+    width: 40%;
+    height: 45px;
+    font-size: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: forestgreen;
+    color: white;
+}
+.forImage{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+}
+img{
+    width: 100%;
+    height:350px ;
+}
+.box{
+    width: 20%;
+    height: 560px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.btnMore{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 18px;
+    cursor: pointer;
+}
+.title{
+    height: 70px;
+    background-color: silver;
+    text-align: center;
+}
+.type,
+.year{
+    text-align: center;
+    font-size: larger;
+    height: 20px;
+}
+.flexDiv{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        min-width: 750px;
+        margin: 1.75rem auto;
+    }
+}
+.modal-dialog{
+    width: 850px;
+}
+.modal-body{
+    width: 100%;
+    min-height: 700px;
+}
+.boxFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.modal-content{
+    width: 890px
+}
+.forPoster{
+    width: 45%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.forInfo{
+    width: 45%;
+    min-height: 600px;
+}
+.infoGenre{
+    font-size: 10px;
+    color: grey;
+}
+.infoTitle{
+    height: 70px;
+    background-color: silver;
+    text-align: center;
+    padding-top: 12px;
+}
+.infoDescription{
+    font-size: 12px;
+}
+.writtenBy,
+.directedBy,
+.starring,
+.boxOffice,
+.awards,
+.ratings{
+  font-size: 14px;
+}
+
+
